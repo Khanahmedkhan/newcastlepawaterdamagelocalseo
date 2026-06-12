@@ -1,5 +1,9 @@
 RewriteEngine On
 
+# Redirect www to non-www
+RewriteCond %{HTTP_HOST} ^www\.newcastlepawaterdamagerestoration\.com [NC]
+RewriteRule ^(.*)$ https://newcastlepawaterdamagerestoration.com/$1 [L,R=301]
+
 ErrorDocument 404 /404.html
 
 # Redirect old .html URLs to clean paths

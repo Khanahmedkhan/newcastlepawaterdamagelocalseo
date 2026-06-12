@@ -1,5 +1,13 @@
 {
   "installCommand": "npm install --prefix newcastle-water-damage",
   "buildCommand": "npm run build --prefix newcastle-water-damage",
-  "outputDirectory": "newcastle-water-damage/dist"
+  "outputDirectory": "newcastle-water-damage/dist",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.newcastlepawaterdamagerestoration.com" }],
+      "destination": "https://newcastlepawaterdamagerestoration.com/:path*",
+      "permanent": true
+    }
+  ]
 }

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.newcastlepawaterdamagerestoration.com/sitemap.xml
+Sitemap: https://newcastlepawaterdamagerestoration.com/sitemap.xml
