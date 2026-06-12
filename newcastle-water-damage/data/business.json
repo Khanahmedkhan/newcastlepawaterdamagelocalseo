@@ -1,0 +1,35 @@
+{
+  "name": "New Castle PA Water Damage Restoration",
+  "url": "https://www.newcastlepawaterdamagerestoration.com",
+  "logo": "/logo.webp",
+  "telephone": "+17245588138",
+  "telephoneDisplay": "(724) 558-8138",
+  "address": {
+    "addressLocality": "New Castle",
+    "addressRegion": "PA",
+    "postalCode": "16101",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "latitude": 41.0037,
+    "longitude": -80.347
+  },
+  "openingHours": "Mo-Su 00:00-23:59",
+  "priceRange": "$$-$$$",
+  "sameAs": [],
+  "areaServed": [
+    { "name": "New Castle", "region": "Pennsylvania" },
+    { "name": "Ellwood City", "region": "Pennsylvania" },
+    { "name": "Sharon", "region": "Pennsylvania" },
+    { "name": "Grove City", "region": "Pennsylvania" },
+    { "name": "Greenville", "region": "Pennsylvania" }
+  ],
+  "serviceTypes": [
+    "Water Damage Restoration",
+    "Flood Damage Restoration",
+    "Emergency Water Extraction",
+    "Structural Drying",
+    "Mold Remediation",
+    "Sewage Cleanup"
+  ]
+}

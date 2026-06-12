@@ -1,0 +1,17 @@
+RewriteEngine On
+
+ErrorDocument 404 /404.html
+
+# Redirect old .html URLs to clean paths
+Redirect 301 /water-damage-restoration-ellwood-city-pa.html /ellwood-city-pa
+Redirect 301 /water-damage-restoration-sharon-pa.html /sharon-pa
+Redirect 301 /water-damage-restoration-grove-city-pa.html /grove-city-pa
+Redirect 301 /water-damage-restoration-greenville-pa.html /greenville-pa
+Redirect 301 /water-damage-restoration-new-castle-pa.html /
+Redirect 301 /flood-damage-restoration-new-castle-pa.html /flood-damage
+Redirect 301 /mold-remediation-new-castle-pa.html /mold-remediation
+
+# Serve extensionless URLs
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ $1/index.html [L]

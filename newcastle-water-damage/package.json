@@ -1,0 +1,15 @@
+{
+  "name": "newcastle-water-damage",
+  "private": true,
+  "type": "module",
+  "description": "New Castle PA Water Damage Restoration — local SEO static site",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "seo:sync": "node scripts/sync-meta.mjs"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}

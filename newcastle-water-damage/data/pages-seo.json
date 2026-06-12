@@ -1,0 +1,96 @@
+{
+  "index.html": {
+    "path": "/",
+    "type": "home",
+    "title": "Water Damage Restoration New Castle PA | 24/7",
+    "description": "Shenango River flood zone? Burst pipes in New Castle? 24/7 water extraction, structural drying & mold prevention across Lawrence County. Call (724) 558-8138.",
+    "breadcrumb": [{ "name": "Home", "path": "/" }]
+  },
+  "ellwood-city-pa/index.html": {
+    "path": "/ellwood-city-pa",
+    "type": "location",
+    "city": "Ellwood City",
+    "title": "Water Damage Restoration Ellwood City PA | 24/7",
+    "description": "Connoquenessing Creek flooding or burst pipes in Ellwood City? Emergency extraction and IICRC structural drying for Lawrence County homes. Call (724) 558-8138.",
+    "serviceName": "Water Damage Restoration Ellwood City PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "Ellwood City PA", "path": "/ellwood-city-pa" }
+    ]
+  },
+  "sharon-pa/index.html": {
+    "path": "/sharon-pa",
+    "type": "location",
+    "city": "Sharon",
+    "title": "Water Damage Restoration Sharon PA | Shenango Valley",
+    "description": "Shenango River and East State Street flood cleanup in Sharon PA. 24/7 emergency water extraction and drying across the Shenango Valley. Call (724) 558-8138.",
+    "serviceName": "Water Damage Restoration Sharon PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "Sharon PA", "path": "/sharon-pa" }
+    ]
+  },
+  "grove-city-pa/index.html": {
+    "path": "/grove-city-pa",
+    "type": "location",
+    "city": "Grove City",
+    "title": "Water Damage Restoration Grove City PA | Wolf Creek",
+    "description": "Wolf Creek flooding or burst pipes in Grove City? Emergency water extraction and structural drying for Mercer County homes and businesses. Call (724) 558-8138.",
+    "serviceName": "Water Damage Restoration Grove City PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "Grove City PA", "path": "/grove-city-pa" }
+    ]
+  },
+  "greenville-pa/index.html": {
+    "path": "/greenville-pa",
+    "type": "location",
+    "city": "Greenville",
+    "title": "Water Damage Restoration Greenville PA | 24/7",
+    "description": "Little Shenango River flooding in Greenville? 24/7 emergency extraction, structural drying, and mold prevention for northwestern Mercer County. Call (724) 558-8138.",
+    "serviceName": "Water Damage Restoration Greenville PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "Greenville PA", "path": "/greenville-pa" }
+    ]
+  },
+  "flood-damage/index.html": {
+    "path": "/flood-damage",
+    "type": "service",
+    "title": "Flood Damage Restoration New Castle PA | 24/7",
+    "description": "Shenango River flooding in New Castle? Emergency flood extraction, disinfection, and structural drying across Lawrence County homes. Call (724) 558-8138 now.",
+    "serviceName": "Flood Damage Restoration New Castle PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "Flood Damage Restoration", "path": "/flood-damage" }
+    ]
+  },
+  "mold-remediation/index.html": {
+    "path": "/mold-remediation",
+    "type": "service",
+    "title": "Mold Remediation New Castle PA | IICRC Certified",
+    "description": "Mold after water damage in New Castle? IICRC certified mold removal, containment, and free moisture inspection for Lawrence County homes. Call (724) 558-8138.",
+    "serviceName": "Mold Remediation New Castle PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "Mold Remediation", "path": "/mold-remediation" }
+    ]
+  },
+  "about/index.html": {
+    "path": "/about",
+    "type": "about",
+    "title": "About Us | New Castle PA Water Damage Restoration",
+    "description": "Local water damage and flood restoration help for New Castle PA and Lawrence County, serving homeowners near the Shenango River and Neshannock Creek. Call (724) 558-8138.",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "About Us", "path": "/about" }
+    ]
+  },
+  "404.html": {
+    "path": "/404",
+    "type": "error",
+    "title": "Page Not Found | Water Damage Help New Castle PA",
+    "description": "Page not found. Need 24/7 water damage restoration in New Castle or Lawrence County? Emergency extraction, drying, and flood cleanup. Call (724) 558-8138.",
+    "breadcrumb": [{ "name": "Home", "path": "/" }]
+  }
+}
