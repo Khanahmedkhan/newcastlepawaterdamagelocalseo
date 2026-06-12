@@ -1,0 +1,5 @@
+{
+  "installCommand": "npm install --prefix newcastle-water-damage",
+  "buildCommand": "npm run build --prefix newcastle-water-damage",
+  "outputDirectory": "newcastle-water-damage/dist"
+}

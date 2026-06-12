@@ -2,6 +2,7 @@
   "name": "new-castle-water-damage-site",
   "private": true,
   "scripts": {
+    "postinstall": "npm install --prefix newcastle-water-damage",
     "dev": "npm run dev --prefix newcastle-water-damage",
     "build": "npm run build --prefix newcastle-water-damage",
     "preview": "npm run preview --prefix newcastle-water-damage"
