@@ -6,14 +6,21 @@ RewriteRule ^(.*)$ https://newcastlepawaterdamagerestoration.com/$1 [L,R=301]
 
 ErrorDocument 404 /404.html
 
-# Redirect old .html URLs to clean paths
-Redirect 301 /water-damage-restoration-ellwood-city-pa.html /ellwood-city-pa
-Redirect 301 /water-damage-restoration-sharon-pa.html /sharon-pa
-Redirect 301 /water-damage-restoration-grove-city-pa.html /grove-city-pa
-Redirect 301 /water-damage-restoration-greenville-pa.html /greenville-pa
+# Redirect old .html URLs and removed location pages to homepage
+Redirect 301 /water-damage-restoration-ellwood-city-pa.html /
+Redirect 301 /water-damage-restoration-sharon-pa.html /
+Redirect 301 /water-damage-restoration-grove-city-pa.html /
+Redirect 301 /water-damage-restoration-greenville-pa.html /
 Redirect 301 /water-damage-restoration-new-castle-pa.html /
-Redirect 301 /flood-damage-restoration-new-castle-pa.html /flood-damage
+Redirect 301 /ellwood-city-pa /
+Redirect 301 /sharon-pa /
+Redirect 301 /grove-city-pa /
+Redirect 301 /greenville-pa /
+Redirect 301 /flood-damage-restoration-new-castle-pa.html /storm-damage-restoration
 Redirect 301 /mold-remediation-new-castle-pa.html /mold-remediation
+Redirect 301 /emergency-water-removal /emergency-water-damage-restoration
+Redirect 301 /ceiling-water-damage /roof-leak-water-damage
+Redirect 301 /flood-damage /storm-damage-restoration
 
 # Serve extensionless URLs
 RewriteCond %{REQUEST_FILENAME} !-f

@@ -1,0 +1,48 @@
+.call-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #b71c1c;
+  color: #fff;
+  padding: 14px 22px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(183, 28, 28, 0.45);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.call-float:hover {
+  background: #d32f2f;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 28px rgba(183, 28, 28, 0.55);
+}
+
+.call-float-icon {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.call-float-icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: currentColor;
+}
+
+@media (max-width: 480px) {
+  .call-float {
+    bottom: 16px;
+    right: 16px;
+    padding: 14px 18px;
+    font-size: 14px;
+  }
+}
