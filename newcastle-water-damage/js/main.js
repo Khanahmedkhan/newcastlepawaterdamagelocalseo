@@ -21,20 +21,19 @@ document.querySelectorAll('.faq-question').forEach(btn => {
 });
 
 // Contact Form Handler
-const contactForm = document.getElementById('contactForm');
-if (contactForm) {
+document.querySelectorAll('.contact-form, #contactForm').forEach((contactForm) => {
   contactForm.addEventListener('submit', function(e) {
     e.preventDefault();
     const btn = this.querySelector('.form-submit');
+    if (!btn || btn.disabled) return;
     btn.textContent = 'Sending...';
     btn.disabled = true;
-    // Simulate submission
     setTimeout(() => {
       btn.textContent = '✓ Request Received — We\'ll Call You Shortly';
       btn.style.background = '#2d7a3a';
     }, 1200);
   });
-}
+});
 
 // Smooth scroll for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(a => {
