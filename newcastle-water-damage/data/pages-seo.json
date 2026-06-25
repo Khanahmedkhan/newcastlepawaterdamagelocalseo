@@ -90,6 +90,126 @@
       { "name": "West New Castle PA", "path": "/west-new-castle-pa" }
     ]
   },
+  "downtown-new-castle-pa/index.html": {
+    "path": "/downtown-new-castle-pa",
+    "type": "location",
+    "city": "Downtown New Castle",
+    "title": "Water Damage Restoration Downtown New Castle PA | 24/7",
+    "description": "Water damage restoration in downtown New Castle PA. Serving homes and businesses near Zambelli Park, the Riverplex, and the Shenango-Neshannock confluence. Call (724) 558-8138.",
+    "serviceName": "Water Damage Restoration Downtown New Castle PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "Downtown New Castle PA", "path": "/downtown-new-castle-pa" }
+    ]
+  },
+  "neshannock-township-pa/index.html": {
+    "path": "/neshannock-township-pa",
+    "type": "location",
+    "city": "Neshannock Township",
+    "title": "Water Damage Restoration Neshannock Township PA | 24/7",
+    "description": "Water damage restoration in Neshannock Township PA. Serving Walmo, Coaltown, Painter Hill, Kings Chapel, and Pearson Park areas. Call (724) 558-8138.",
+    "serviceName": "Water Damage Restoration Neshannock Township PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "Neshannock Township PA", "path": "/neshannock-township-pa" }
+    ]
+  },
+  "north-hill-pa/index.html": {
+    "path": "/north-hill-pa",
+    "type": "location",
+    "city": "North Hill",
+    "title": "Water Damage Restoration North Hill PA | 24/7",
+    "description": "Water damage restoration in North Hill PA — New Castle's National Register Historic District. Serving Victorian mansions and craftsman homes near Lincoln Avenue and Boyles Avenue. Call (724) 558-8138.",
+    "serviceName": "Water Damage Restoration North Hill PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "North Hill PA", "path": "/north-hill-pa" }
+    ]
+  },
+  "shenango-township-pa/index.html": {
+    "path": "/shenango-township-pa",
+    "type": "location",
+    "city": "Shenango Township",
+    "title": "Water Damage Restoration Shenango Township PA | 24/7",
+    "description": "Water damage restoration in Shenango Township PA. Serving Cascade Park, Chewton, Route 65, and all Shenango Township communities. Call (724) 558-8138.",
+    "serviceName": "Water Damage Restoration Shenango Township PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "Shenango Township PA", "path": "/shenango-township-pa" }
+    ]
+  },
+  "union-township-pa/index.html": {
+    "path": "/union-township-pa",
+    "type": "location",
+    "city": "Union Township",
+    "title": "Water Damage Restoration Union Township PA | 24/7",
+    "description": "Water damage restoration in Union Township PA. Serving Oakwood, Oakland, Harbor, Belmar Park, and Parkstown communities throughout Lawrence County. Call (724) 558-8138.",
+    "serviceName": "Water Damage Restoration Union Township PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "Union Township PA", "path": "/union-township-pa" }
+    ]
+  },
+  "bessemer-pa/index.html": {
+    "path": "/bessemer-pa",
+    "type": "location",
+    "city": "Bessemer",
+    "title": "Water Damage Restoration Bessemer PA | 24/7",
+    "description": "Water damage restoration in Bessemer PA. Serving the historic limestone and cement borough near the Ohio state line in Lawrence County. Call (724) 558-8138.",
+    "serviceName": "Water Damage Restoration Bessemer PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "Bessemer PA", "path": "/bessemer-pa" }
+    ]
+  },
+  "hermitage-pa/index.html": {
+    "path": "/hermitage-pa",
+    "type": "location",
+    "city": "Hermitage",
+    "title": "Water Damage Restoration Hermitage PA | 24/7",
+    "description": "Water damage restoration in Hermitage PA — Mercer County's most populous city. Serving homes near Buhl Park, East State Street, and Shenango River Lake. Call (724) 558-8138.",
+    "serviceName": "Water Damage Restoration Hermitage PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "Hermitage PA", "path": "/hermitage-pa" }
+    ]
+  },
+  "north-beaver-township-pa/index.html": {
+    "path": "/north-beaver-township-pa",
+    "type": "location",
+    "city": "North Beaver Township",
+    "title": "Water Damage Restoration North Beaver Township PA | 24/7",
+    "description": "Water damage restoration in North Beaver Township PA — Lawrence County's largest township on the Ohio state line. Serving Mount Jackson, Bessemer, Moravia, and all township communities. Call (724) 558-8138.",
+    "serviceName": "Water Damage Restoration North Beaver Township PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "North Beaver Township PA", "path": "/north-beaver-township-pa" }
+    ]
+  },
+  "taylor-township-pa/index.html": {
+    "path": "/taylor-township-pa",
+    "type": "location",
+    "city": "Taylor Township",
+    "title": "Water Damage Restoration Taylor Township PA | 24/7",
+    "description": "Water damage restoration in Taylor Township PA. Serving West Pittsburg and all Taylor Township communities in Lawrence County. Call (724) 558-8138.",
+    "serviceName": "Water Damage Restoration Taylor Township PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "Taylor Township PA", "path": "/taylor-township-pa" }
+    ]
+  },
+  "wampum-pa/index.html": {
+    "path": "/wampum-pa",
+    "type": "location",
+    "city": "Wampum",
+    "title": "Water Damage Restoration Wampum PA | 24/7",
+    "description": "Water damage restoration in Wampum PA — Lawrence County's oldest borough on the Beaver River. Serving homes along Eckles Run, Wampum Run, and Main Street. Call (724) 558-8138.",
+    "serviceName": "Water Damage Restoration Wampum PA",
+    "breadcrumb": [
+      { "name": "Home", "path": "/" },
+      { "name": "Wampum PA", "path": "/wampum-pa" }
+    ]
+  },
   "water-damage-restoration/index.html": {
     "path": "/water-damage-restoration",
     "type": "service",

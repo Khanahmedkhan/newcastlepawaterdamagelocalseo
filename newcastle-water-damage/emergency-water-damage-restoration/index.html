@@ -16,7 +16,27 @@
     .topbar a { color: #fff; text-decoration: underline; }
 
     nav { background: #0d1b4b; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
-    nav .logo img { height: 48px; }
+    nav .logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 54px;
+      height: 54px;
+      background: #fff;
+      border-radius: 50%;
+      padding: 5px;
+      flex-shrink: 0;
+      box-sizing: border-box;
+      line-height: 0;
+    }
+    nav .logo img {
+      max-height: 100%;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
     nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 20px; }
     nav ul li a { color: #e0e0e0; font-size: 14px; font-weight: 500; }
     nav ul li a:hover { color: #fff; text-decoration: none; }
@@ -462,6 +482,46 @@
         <h3>West New Castle, PA</h3>
         <p>West State Street, Sampson Street, and the Shenango River corridor.</p>
       </a>
+      <a class="area-card" href="/downtown-new-castle-pa">
+        <h3>Downtown New Castle, PA</h3>
+        <p>Shenango River and Neshannock Creek confluence, Zambelli Park, and the Riverplex corridor.</p>
+      </a>
+      <a class="area-card" href="/neshannock-township-pa">
+        <h3>Neshannock Township, PA</h3>
+        <p>Walmo, Coaltown, Painter Hill, Kings Chapel, and Pearson Park areas.</p>
+      </a>
+      <a class="area-card" href="/north-hill-pa">
+        <h3>North Hill, PA</h3>
+        <p>New Castle's National Register Historic District near Lincoln and Boyles Avenues.</p>
+      </a>
+      <a class="area-card" href="/shenango-township-pa">
+        <h3>Shenango Township, PA</h3>
+        <p>Cascade Park, Chewton, Route 65, and Shenango Township communities.</p>
+      </a>
+      <a class="area-card" href="/union-township-pa">
+        <h3>Union Township, PA</h3>
+        <p>Oakwood, Oakland, Harbor, Belmar Park, and Parkstown communities.</p>
+      </a>
+      <a class="area-card" href="/bessemer-pa">
+        <h3>Bessemer, PA</h3>
+        <p>Historic limestone and cement borough near the Ohio state line in Lawrence County.</p>
+      </a>
+      <a class="area-card" href="/hermitage-pa">
+        <h3>Hermitage, PA</h3>
+        <p>Mercer County city near Buhl Park, East State Street, and Shenango River Lake.</p>
+      </a>
+      <a class="area-card" href="/north-beaver-township-pa">
+        <h3>North Beaver Township, PA</h3>
+        <p>Mount Jackson, Bessemer, Moravia, and Ohio border communities in Lawrence County.</p>
+      </a>
+      <a class="area-card" href="/taylor-township-pa">
+        <h3>Taylor Township, PA</h3>
+        <p>West Pittsburg and Taylor Township communities throughout Lawrence County.</p>
+      </a>
+      <a class="area-card" href="/wampum-pa">
+        <h3>Wampum, PA</h3>
+        <p>Lawrence County's oldest borough on the Beaver River — Eckles Run and Main Street.</p>
+      </a>
     </div>
   </div>
 </section>
@@ -508,7 +568,6 @@
     </div>
   </div>
 </section>
-
 
 
 

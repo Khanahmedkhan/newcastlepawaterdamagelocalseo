@@ -25,6 +25,16 @@ const locationSlugs = [
   'mahoningtown-pa',
   'east-new-castle-pa',
   'west-new-castle-pa',
+  'downtown-new-castle-pa',
+  'neshannock-township-pa',
+  'north-hill-pa',
+  'shenango-township-pa',
+  'union-township-pa',
+  'bessemer-pa',
+  'hermitage-pa',
+  'north-beaver-township-pa',
+  'taylor-township-pa',
+  'wampum-pa',
 ];
 
 const styledPages = [
@@ -75,6 +85,56 @@ const areas = [
     href: '/west-new-castle-pa',
     title: 'West New Castle, PA',
     description: 'West State Street, Sampson Street, and the Shenango River corridor.',
+  },
+  {
+    href: '/downtown-new-castle-pa',
+    title: 'Downtown New Castle, PA',
+    description: 'Shenango River and Neshannock Creek confluence, Zambelli Park, and the Riverplex corridor.',
+  },
+  {
+    href: '/neshannock-township-pa',
+    title: 'Neshannock Township, PA',
+    description: 'Walmo, Coaltown, Painter Hill, Kings Chapel, and Pearson Park areas.',
+  },
+  {
+    href: '/north-hill-pa',
+    title: 'North Hill, PA',
+    description: "New Castle's National Register Historic District near Lincoln and Boyles Avenues.",
+  },
+  {
+    href: '/shenango-township-pa',
+    title: 'Shenango Township, PA',
+    description: 'Cascade Park, Chewton, Route 65, and Shenango Township communities.',
+  },
+  {
+    href: '/union-township-pa',
+    title: 'Union Township, PA',
+    description: 'Oakwood, Oakland, Harbor, Belmar Park, and Parkstown communities.',
+  },
+  {
+    href: '/bessemer-pa',
+    title: 'Bessemer, PA',
+    description: 'Historic limestone and cement borough near the Ohio state line in Lawrence County.',
+  },
+  {
+    href: '/hermitage-pa',
+    title: 'Hermitage, PA',
+    description: "Mercer County city near Buhl Park, East State Street, and Shenango River Lake.",
+  },
+  {
+    href: '/north-beaver-township-pa',
+    title: 'North Beaver Township, PA',
+    description: 'Mount Jackson, Bessemer, Moravia, and Ohio border communities in Lawrence County.',
+  },
+  {
+    href: '/taylor-township-pa',
+    title: 'Taylor Township, PA',
+    description: 'West Pittsburg and Taylor Township communities throughout Lawrence County.',
+  },
+  {
+    href: '/wampum-pa',
+    title: 'Wampum, PA',
+    description: "Lawrence County's oldest borough on the Beaver River — Eckles Run and Main Street.",
   },
 ];
 
@@ -287,20 +347,75 @@ function insertBeforeFooter(html, block) {
   return html.replace(/(\n\s*<footer[\s>])/i, `\n${block}\n$1`);
 }
 
+const callFloatCss = `
+    /* Floating call button */
+    .call-float {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 9999;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #b71c1c;
+      color: #fff;
+      padding: 14px 22px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 1;
+      text-decoration: none;
+      box-shadow: 0 4px 20px rgba(183, 28, 28, 0.45);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    }
+    .call-float:hover {
+      background: #d32f2f;
+      color: #fff;
+      text-decoration: none;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 28px rgba(183, 28, 28, 0.55);
+    }
+    .call-float-icon {
+      display: inline-flex;
+      align-items: center;
+      line-height: 1;
+    }
+    .call-float-icon svg {
+      width: 1.25rem;
+      height: 1.25rem;
+      fill: currentColor;
+    }
+    @media (max-width: 480px) {
+      .call-float {
+        bottom: 16px;
+        right: 16px;
+        padding: 14px 18px;
+        font-size: 14px;
+      }
+    }`;
+
 function ensureInlineSectionCss(html) {
-  if (html.includes('/* Areas we serve + contact form */')) return html;
-  return html.replace('  </style>', `${inlineSectionCss}\n  </style>`);
+  let next = html;
+  if (!next.includes('/* Floating call button */')) {
+    next = next.replace('  </style>', `${callFloatCss}\n  </style>`);
+  }
+  if (next.includes('/* Areas we serve + contact form */')) return next;
+  return next.replace('  </style>', `${inlineSectionCss}\n  </style>`);
 }
 
+const callFloatWidget = `<a href="tel:+17245588138" class="call-float" aria-label="Call now — (724) 558-8138">
+  <span class="call-float-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg></span>
+  <span class="call-float-text">Call Now</span>
+</a>`;
+
 function ensureMainScript(html) {
-  if (html.includes('/js/main.js')) return html;
-  if (html.includes('class="call-float"')) {
-    return html.replace(
-      /<a href="tel:\+17245588138" class="call-float"/,
-      '<script src="/js/main.js"></script>\n\n<a href="tel:+17245588138" class="call-float"'
-    );
+  let next = html;
+  if (!next.includes('/js/main.js')) {
+    next = next.replace('</body>', `<script src="/js/main.js"></script>\n\n${callFloatWidget}\n</body>`);
+  } else if (!next.includes('class="call-float"')) {
+    next = next.replace('</body>', `\n${callFloatWidget}\n</body>`);
   }
-  return html.replace('</body>', '<script src="/js/main.js"></script>\n</body>');
+  return next;
 }
 
 for (const slug of serviceSlugs) {
@@ -326,7 +441,8 @@ for (const slug of locationSlugs) {
   const file = path.join(root, `${slug}/index.html`);
   let html = fs.readFileSync(file, 'utf8');
   html = ensureInlineSectionCss(html);
-  html = insertBeforeFooter(html, inlineContactSection());
+  const block = `${inlineAreasSection()}\n\n${inlineContactSection()}`;
+  html = insertBeforeFooter(html, block);
   html = ensureMainScript(html);
   fs.writeFileSync(file, html);
   console.log('updated location:', slug);

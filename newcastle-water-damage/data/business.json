@@ -19,10 +19,13 @@
   "sameAs": [],
   "areaServed": [
     { "name": "New Castle", "region": "Pennsylvania" },
-    { "name": "Ellwood City", "region": "Pennsylvania" },
-    { "name": "Sharon", "region": "Pennsylvania" },
-    { "name": "Grove City", "region": "Pennsylvania" },
-    { "name": "Greenville", "region": "Pennsylvania" }
+    { "name": "Lawrence County", "region": "Pennsylvania" },
+    { "name": "Neshannock Township", "region": "Pennsylvania" },
+    { "name": "Shenango Township", "region": "Pennsylvania" },
+    { "name": "Union Township", "region": "Pennsylvania" },
+    { "name": "Hermitage", "region": "Pennsylvania" },
+    { "name": "Bessemer", "region": "Pennsylvania" },
+    { "name": "Wampum", "region": "Pennsylvania" }
   ],
   "serviceTypes": [
     "Water Damage Restoration",

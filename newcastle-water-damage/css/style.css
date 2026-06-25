@@ -105,14 +105,25 @@ p:last-child { margin-bottom: 0; }
 }
 
 .logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px;
   flex-shrink: 0;
+  box-sizing: border-box;
+  line-height: 0;
 }
 
 .logo-img {
-  height: 48px;
+  max-height: 100%;
+  max-width: 100%;
   width: auto;
+  height: auto;
+  object-fit: contain;
   display: block;
 }
 
@@ -1072,7 +1083,7 @@ a.area-card:hover {
 }
 
 @media (max-width: 768px) {
-  .logo-img { height: 40px; }
+  .logo { width: 48px; height: 48px; padding: 4px; }
   .nav-links { display: none; }
   .nav-toggle { display: flex; }
   .nav-links.open {
